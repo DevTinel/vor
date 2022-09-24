@@ -1,0 +1,65 @@
+
+.mobile-abrir,.mobile-fechar {
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+
+}
+
+@media(max-width:1024px){
+  /* INDEX HTML CSS NAV */
+  .nav-links{
+    display: none;
+  }
+  .mobile-items{
+    display: initial;
+    transition: 5s;
+  }
+  .nav-index{
+    justify-content: space-around;
+    gap: 150px;
+    background-color: #000;
+  }
+
+  /* FIM INDEX HTML CSS */
+
+  #mobileNav.ativado {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    background-color: #F9F9F9;
+    padding: 20px;
+    box-shadow: 0px 1px 4px #777;
+    right: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+  } 
+ 
+  #mobileNav{
+    animation: slide .3s ease-in-out,step-end;
+  }
+  #mobileNav a:hover{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #000;
+  }
+  .span-li{
+    width: 110px;
+    margin-left: 25px;
+  }
+  
+}
+
+@keyframes slide {
+  from{
+    transform: translate3d(120px,0,0);
+  }
+  to{
+    transform: translate3d(0,0,0);
+  }
+}
+
+
+

@@ -1,0 +1,44 @@
+@media (max-width:1024px){
+  .header-sobre{
+    width: 100%;
+  }
+  .sobre-container{
+    flex-direction: column;
+    gap: 30px;
+
+  }
+  .sobre{
+    width: 90% !important;
+    padding-inline-start: 0px ;
+  }
+.valor-h2{
+    margin-top: 50px;
+    text-align: left;
+    width: 100% ;
+  }
+  
+  .valores{
+    width: 100%;
+    padding-left: 130px;
+  }
+  .sobre p{
+    color: #6C6C6C;
+    font-size: 1rem !important;
+    line-height: 1.5;
+    
+  }
+  .sobre-h1 {
+      font-size: 3rem !important;
+      width: 100%;
+      text-align: left;
+      font-weight: 100;
+    }
+  ul{ 
+    margin-bottom: 100px;
+    text-align: left;
+  }
+  footer p {
+    width: 100%;
+  }
+
+}

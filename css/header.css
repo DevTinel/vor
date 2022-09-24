@@ -1,0 +1,39 @@
+header{background-color: #fff;
+  display: flex;
+  justify-content: space-around ;
+  height: 80px;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  position: fixed;
+  width: 100%;
+  
+}
+
+nav a{
+  font-size: 1rem;
+  color: #333;
+  border: 2px solid transparent;
+  font-weight: 300;
+}
+.nav-links a:hover{
+  border-bottom: 2px solid  #fff;
+  transition: .3s;
+}
+
+ nav{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+ }
+
+ .active{
+  border-bottom: 2px solid #fff;
+ }
+ 
+ .hidden{
+  display: none;
+}
+ 
+
+
+
