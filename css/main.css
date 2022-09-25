@@ -12,15 +12,7 @@ main h1{
   padding: 0px 0px;
   animation:  corTitulo 60s forwards ;
 }
-main p {
-  margin:  auto;
-  font-weight: 300;
-  width: 50%;
-  font-size: 2rem;
-  border-bottom: 2px solid #FEFFFE;
-  animation:  corParagrafo 60s forwards ;
-  padding-bottom: 30px;
-}
+
 .slide{
   margin: 50px auto;
   width: 60%;
