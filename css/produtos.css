@@ -3,8 +3,7 @@
   height: 300px;
 object-fit: cover;
 }
-.produtos{
-  position: relative;
+#produtos{
 }
 .imagens {
   width: 100%;
@@ -58,6 +57,14 @@ object-fit: cover;
   border-right: 1px solid #a8a8;
   margin-left: -70px;
 }
+#produtos h1{
+  margin: 70px 0;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+}
 @media(max-width:768px){
   .imagens{
     width: 100%;
@@ -82,9 +89,59 @@ object-fit: cover;
 
 #descricao-produtos{
   width: 100%;
-  padding: 200px;
+  padding: 80px;
+  text-align: center;
+  border-bottom: 2px solid #fff;
   background-color: #fff;
 }
 .descricao-produtos-container{
   width: 100%;
+  margin:auto;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #aaa;
+  padding-bottom: 30px;
+}
+.descricao-produtos-container h1{
+  width: 100%;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #444;
+}
+.descricao-produtos-container p{
+  margin-bottom: 10px;
+  width: 70%;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  font-family: 'Roboto',sans-serif;
+  margin: 0 auto;
+}
+.impressao h2{
+  font-size: 3rem;
+  color:#666;
+  font-weight: 200;
+  margin-bottom: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.impressao p{
+  width: 70%;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  font-family: 'Roboto',sans-serif;
+  margin: 0 auto;
+}
+.impressao a{
+  display: block;
+  margin-top: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.impressao a:hover{
+  background-color: black;
+  margin:30px auto;
+  width: max-content;
+  border-radius: 6px ;
+  color: #aaa;
+  transition: .3s  
 }

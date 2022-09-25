@@ -62,7 +62,7 @@ main{
 }
 .valores{
   margin: 0 auto;
-  box-shadow: 4px 8px 10px #102124;
+  box-shadow: 2px 1px 8px #333;
   padding: 20px;
   border-radius: 8px;
 }

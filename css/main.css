@@ -13,33 +13,7 @@ main h1{
   animation:  corTitulo 60s forwards ;
 }
 
-.slide{
-  margin: 50px auto;
-  width: 60%;
-  box-shadow: 5px 4px   15px #2A2D2E;
-  display: flex;
-  border-radius: 8px;
-  justify-content: space-around;
-  animation:  corTitulo 60s forwards ;
 
-}
-.slide-items{
-  display: flex;
-  width: 100%;
-  gap: 50px;
-  height: 500px;
-}
-.slide-items img{
-  width: 100%;
-  margin: 0 auto;
-  object-fit: cover;
-}
-
-.prev,.next{
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
 
 .footer-index p{
   width: 100%;
