@@ -12,6 +12,7 @@ main{
   padding: 15px 0px;
   text-align: left;
   font-weight: 400;
+  padding-left: 30px;
 }
 
 .sobre-container{
@@ -24,9 +25,9 @@ main{
   box-shadow: 1px 2px 10px #6C6C6C;
   padding: 80px;
   margin-bottom: 30px;
+  margin-left: 30px;
   text-align: left;
   border-radius: 10px;
-  margin-left: 30px;
 }
 .sobre h2{
   color:#2A2D2E ;
@@ -105,25 +106,7 @@ li::before{
   text-align: center ;
 }
 
-  @media(max-width:1024px){
-    body{
-    overflow-x: hidden;
-    }
-    #header-sobre nav{
-      display: none;
-    }
-    #header-sobre{
-      justify-content: space-between;
-      width: 90%;
-      padding: 0 20px;
-    }
 
-  }
 
-  @media(max-width:768px){
-    .sobre-h1{
-      width: 100%;
-      font-size: 5rem !important;
-    }
-  }
+ 
  
