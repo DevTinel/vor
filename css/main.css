@@ -13,11 +13,13 @@ main h1{
   animation:  corTitulo 60s forwards ;
 }
 main p {
-  margin: 0 auto;
+  margin:  auto;
   font-weight: 300;
   width: 50%;
   font-size: 2rem;
+  border-bottom: 2px solid #FEFFFE;
   animation:  corParagrafo 60s forwards ;
+  padding-bottom: 30px;
 }
 .slide{
   margin: 50px auto;
