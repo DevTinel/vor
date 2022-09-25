@@ -5,6 +5,7 @@
   #header-sobre nav{
     display: none;
   }
+
   .header-sobre-container{
     width: 100%;
   }
@@ -57,7 +58,10 @@
     font-size: 1rem !important;
     line-height: 1.5;
     width: 100% !important;
-    
+  }
+  .sobre{
+    margin: 0 auto !important;
+    padding: 40px !important;
   }
   .sobre-h1 {
       font-size: 5rem !important;
