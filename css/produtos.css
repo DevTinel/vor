@@ -63,7 +63,10 @@ object-fit: cover;
     width:50px;
     height: 20px;
     margin-right: 50px;
-    padding-right: 30px;
+    padding-right:30px;
+  }
+  .comprarCopo a{
+    padding-right: 40px;
   }
 }
 
