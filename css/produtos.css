@@ -2,13 +2,10 @@
   width: 300px;
   height: 300px;
 object-fit: cover;
-
 }
 .produtos{
   position: relative;
-
 }
-
 .imagens {
   width: 100%;
   margin: 30px auto;
@@ -17,7 +14,6 @@ object-fit: cover;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 .comprarCopo{
   background-color: #fff;
@@ -27,16 +23,12 @@ object-fit: cover;
   gap: 80px;
   padding: 10px;
   border-top: 2px solid #333;
-
 }
 .produto{
   display: flex;
   flex-direction: column;
   box-shadow: 2px 1px 8px #333;
   border-radius: 10px;
-
-
-  
 }
 .produto a{
   text-align: center;
@@ -57,10 +49,6 @@ object-fit: cover;
 .produto img{
   border-radius:  10px 10px 0 0 ;
 }
-
-
-
-
 .comprarCopo {
   border-radius: 0px 0px 10px 10px ;
 }
@@ -69,9 +57,7 @@ object-fit: cover;
   height: 15px;
   border-right: 1px solid #a8a8;
   margin-left: -70px;
-
 }
-
 @media(max-width:768px){
   .imagens{
     width: 100%;
@@ -92,3 +78,13 @@ object-fit: cover;
   }
 }
 
+/* DESCRIÇÃO DO PRODUTO */
+
+#descricao-produtos{
+  width: 100%;
+  padding: 200px;
+  background-color: #fff;
+}
+.descricao-produtos-container{
+  width: 100%;
+}
