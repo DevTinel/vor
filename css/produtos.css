@@ -1,0 +1,43 @@
+.imagens img{
+  width: 200px;
+  height: 200px;
+object-fit: cover;
+}
+
+.imagens {
+  width: calc(100% / 2);
+  margin: 30px auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.produto{
+  display: flex;
+  flex-direction: column;
+  
+}
+.produto a{
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+
+.button-comprar{
+  padding: 10px;
+}
+
+.comprarCopo{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid #333;
+  gap: 20px;
+
+}
+.comprarCopo img{
+  width: 50px;
+  height: 15px;
+  border-right: 1px solid #a8a8;
+}
+

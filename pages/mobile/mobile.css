@@ -36,7 +36,7 @@
   } 
  
   #mobileNav{
-    animation: slide .3s ease-in-out,step-end;
+    animation: slide .3s ease-in-out
   }
   #mobileNav a:hover{
     text-align: center;
