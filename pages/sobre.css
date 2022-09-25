@@ -6,9 +6,9 @@ main{
   margin: 0 auto;
 }
 
-main h1{
-font-family: 'Poppins',sans-serif;
-  font-size: 5rem;
+.sobre-h1{
+  font-family: 'Passions Conflict', cursive;
+  font-size: 10rem;  
   padding: 15px 0px;
   text-align: left;
   font-weight: 400;
@@ -31,8 +31,10 @@ font-family: 'Poppins',sans-serif;
   color:#2A2D2E ;
   padding: 15px 0px;
   text-align: left;
-  margin-left:  10%;
-}
+  font-weight: 400;
+  font-family: 'Passions Conflict', cursive;
+  font-size: 8rem;
+  }
 .sobre p{
   color: #6C6C6C;
   font-size: 1.5rem;
@@ -122,6 +124,12 @@ li::before{
       width: 100%;
       margin-bottom: -70px;
        }
-   
+  }
+
+  @media(max-width:768px){
+    .sobre-h1{
+      width: 100%;
+      font-size: 5rem !important;
+    }
   }
  

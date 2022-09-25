@@ -11,6 +11,9 @@
     width: 90% !important;
     padding-inline-start: 0px ;
   }
+  .sobre h2{
+    font-size: 5rem !important;
+  }
 .valor-h2{
     margin-top: 50px;
     text-align: left;
@@ -28,7 +31,7 @@
     
   }
   .sobre-h1 {
-      font-size: 3rem !important;
+      font-size: 5rem !important;
       width: 100%;
       text-align: left;
       font-weight: 100;
