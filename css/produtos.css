@@ -152,6 +152,17 @@ object-fit: cover;
   transition: .3s  
 }
 
+.whatss-svg{
+  position: fixed;
+  width: 50px;
+  cursor: pointer;
+  bottom: 30px;
+  right: 50px;
+  border-radius:  30%;
+  margin-bottom: 60px;
+}
+.whatss-svg:hover{
+}
 
 
 /* RESPONSIVO */
