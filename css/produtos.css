@@ -3,9 +3,7 @@
   height: 300px;
 object-fit: cover;
 }
-.produtos{
-  z-index: -9999999;
-}
+
 
 .imagens {
   width: 100%;
@@ -15,10 +13,9 @@ object-fit: cover;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
-  
+    
 }
 .produto{
-  position: relative;
   display: flex;
   flex-direction: column;
   box-shadow: 2px 1px 8px #333;
@@ -31,15 +28,15 @@ object-fit: cover;
   font-weight: bold;
   width: 100%;
   color: #0E2408;
+  position: relative;
 }
 .produto a::before{
   position: absolute;
   content: '+';
-  left: 30px;
-  background-image: url('../assets/icons/comprar.svg');
   width: 10px;
   color: #38C914;
   height: 10px;
+  left: 40px;
 }
 .produto img{
   border-radius:  10px 10px 0 0 ;
