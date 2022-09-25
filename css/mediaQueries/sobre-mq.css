@@ -20,9 +20,14 @@
     font-weight: 300;
     color: #2C4B52;
   }
+
+  .valores {
+    height: 250px;
+  }
   .sobre{
     width: 90% !important ;
     margin: 0 auto;
+    margin-bottom: 20px !important;
   }
   .sobre h2{
     font-size: 5rem !important;

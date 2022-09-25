@@ -24,7 +24,7 @@ main{
   width: 70%;
   box-shadow: 1px 2px 10px #6C6C6C;
   padding: 80px;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
   margin-left: 30px;
   text-align: left;
   border-radius: 10px;
@@ -52,7 +52,17 @@ main{
   box-shadow: 4px 8px 10px #102124;
   padding: 20px;
   border-radius: 8px;
-
+}
+.valores h2{
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #102124;
+  font-family: 'Passions Conflict', cursive;
+}
+.valores li{
+  font-weight: 300;
 }
 
 
