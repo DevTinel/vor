@@ -17,3 +17,16 @@ buttonFechar.addEventListener('click', (e) => {
   buttonFechar.classList.add('hidden');
   mobileNav.classList.replace('ativado', 'hidden');
 });
+
+const toltip = document.querySelector('.contato-whats');
+const paragrafoToltip = document.querySelector('.paragafro-toltip');
+console.log(paragrafoToltip);
+
+function handleMouse(e) {
+  paragrafoToltip.classList.remove('hidden');
+}
+function handleMouse2(e) {
+  paragrafoToltip.classList.add('hidden');
+}
+toltip.addEventListener('mouseover', handleMouse);
+toltip.addEventListener('mouseout', handleMouse2);
