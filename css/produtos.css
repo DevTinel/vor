@@ -3,6 +3,9 @@
   height: 300px;
 object-fit: cover;
 }
+.produtos{
+  z-index: -9999999;
+}
 
 .imagens {
   width: 100%;

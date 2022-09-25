@@ -2,6 +2,9 @@
   .header-sobre{
     width: 100%;
   }
+  .header-sobre-container{
+    width: 100%;
+  }
   .sobre-container{
     flex-direction: column;
     gap: 30px;
@@ -9,25 +12,36 @@
   }
   .sobre{
     width: 90% !important;
-    padding-inline-start: 0px ;
+    margin: 0 auto;
   }
   .sobre h2{
     font-size: 5rem !important;
   }
-.valor-h2{
-    margin-top: 50px;
+
+  .valores h2{
     text-align: left;
-    width: 100% ;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #102124;
+    font-family: 'Passions Conflict', cursive;
+  
   }
   
   .valores{
-    width: 100%;
-    padding-left: 130px;
+    margin: 0 auto;
+    margin-top: -200px;
+    width: 50%;
+    box-shadow: 4px 8px 10px #102124;
+    padding: 20px;
+   border-radius: 8px;
+    margin-bottom: 100px;
   }
   .sobre p{
     color: #6C6C6C;
     font-size: 1rem !important;
     line-height: 1.5;
+    width: 100% !important;
     
   }
   .sobre-h1 {
@@ -42,6 +56,7 @@
   }
   footer p {
     width: 100%;
+    margin-top: 100px;
   }
 
 }
