@@ -1,0 +1,105 @@
+#contato{
+background-color: #f7f7f7;
+
+}
+#contato h1{
+  font-weight: 100;
+  font-family: 'Poppins';
+  font-size: 3rem;
+  text-align: left  ;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.formContato{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.formContato label{
+  margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 1.125rem;
+  display: block;
+  text-align: left !important;
+  width: 50%;
+}
+.formContato input{
+  padding: 10px;
+  width: 50%;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 1.125rem;
+  box-shadow: 1px 2px 4px #888;
+}
+.formContato textarea{
+  box-shadow: 1px 2px 4px #888;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  width: 50% !important  ;
+  max-height: 200px;
+  height: 200px !important;
+}
+
+.buttonContato{
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-top: 40px;
+    width: 200px;
+    border-radius: 8px;
+     box-shadow: 2px 4px 4px #888;
+
+}
+
+
+
+@media(max-width:768px){
+
+
+
+  #contato h1{
+   font-size: 1.5rem;
+   width: 100%;
+    margin: auto;
+    padding: 0 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+
+    
+.formContato{
+padding: 20px;
+}
+
+.formContato label{
+   font-weight: normal !important;
+  width: 100%;
+}
+
+    .formContato input{
+      padding: 10px;
+      width: 100%;
+      box-shadow: 1px 2px 4px #888;
+    }
+
+    .formContato textarea{
+      width: 100% !important  ;
+    }
+
+    .footer-contato {
+      text-align: center;
+      font-weight: .5rem;
+      width: 100%;
+      margin-top: 50px;
+    }
+
+}

@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/global.css">
   <link rel="stylesheet" href="./contato.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;700;900&family=Ruslan+Display&display=swap" rel="stylesheet">
   <title>VoR | Contato</title>
 </head>
 
@@ -18,9 +23,29 @@
       <a href="./produtos.html">PRODUTOS</a>
       <a href="./sobre.html">EMPRESA</a>
       <a class="active" href="./contato.html">CONTATO</a>
+      <link rel="stylesheet" href="../css/formContato.css">
     </nav>
 
   </header>
+
+  <main id="contato">
+    <h1>faça sua encomenda</h1>
+    <form class="formContato" action="">
+      <label for="nome">Nome Completo: </label>
+      <input type="text" name="nome" id="nome">
+      <label for="email">Email:</label>
+      <input type="email" placeholder="email@email.com" name="nome" id="email">
+      <label for="mensagem">Mensagem</label>
+      <textarea name="mensagem" id="mensagem" cols="100" rows="10"></textarea>
+      <button class="buttonContato" type="submit">Enviar Mensagem</button>
+    </form>
+
+
+    <footer class="footer-contato">
+      <p>Direitos autorais reservados ©️ Vista o Reino - 2022.</p>
+
+    </footer>
+  </main>
 
 </body>
 
