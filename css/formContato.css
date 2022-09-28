@@ -10,6 +10,7 @@ background-color: #f7f7f7;
   margin: 0 auto;
   width: 50%;
   margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 .formContato{
@@ -45,6 +46,7 @@ background-color: #f7f7f7;
   width: 50% !important  ;
   max-height: 200px;
   height: 200px !important;
+  padding: 20px;
 }
 
 .buttonContato{
@@ -65,13 +67,13 @@ background-color: #f7f7f7;
 
 
   #contato h1{
-   font-size: 1.5rem;
+   font-size: 2rem;
    width: 100%;
     margin: auto;
     padding: 0 20px;
-    font-weight: bold;
     margin-top: 20px;
     margin-bottom: 0px;
+    font-weight: 300;
   }
 
 
