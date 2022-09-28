@@ -85,12 +85,14 @@ padding: 20px;
 .formContato label{
    font-weight: normal !important;
   width: 100%;
+  
 }
 
     .formContato input{
       padding: 10px;
       width: 100%;
       box-shadow: 1px 2px 4px #888;
+      border: 1px solid #888;
     }
 
     .formContato textarea{
@@ -102,6 +104,8 @@ padding: 20px;
       font-weight: .5rem;
       width: 100%;
       margin-top: 50px;
+      border: 1px solid #888;
+      
     }
 
 }
