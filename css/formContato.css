@@ -27,6 +27,7 @@ background-color: #f7f7f7;
     font-size: 1.125rem;
   display: block;
   text-align: left !important;
+  color: #0E1B5F;
   width: 50%;
 }
 .formContato input{
@@ -36,10 +37,11 @@ background-color: #f7f7f7;
   outline: none;
   border: none;
   font-size: 1.125rem;
-  box-shadow: 1px 2px 4px #888;
+  box-shadow: 2px 4px 4px #BDC6F3;
+  border: 1px solid #0E1B5F;
+
 }
 .formContato textarea{
-  box-shadow: 1px 2px 4px #888;
   border-radius: 8px;
   outline: none;
   border: none;
@@ -47,25 +49,40 @@ background-color: #f7f7f7;
   max-height: 200px;
   height: 200px !important;
   padding: 20px;
+  box-shadow: 2px 4px 4px #BDC6F3;
+  border: 1px solid #0E1B5F;
+}
+label input:focus{
+  color: #0E1B5F;
+}
+.formContato input:focus{
+  color: #0C27B8;
 }
 
+
 .buttonContato{
-    padding: 10px;
+    padding: 20px ;
     border: none;
     outline: none;
     margin-top: 40px;
     width: 200px;
+    color: #E6E7EC;
     border-radius: 8px;
-     box-shadow: 2px 4px 4px #888;
+    margin-bottom: 30px;
+    font-weight: bold;
+    cursor: pointer;
+     box-shadow: 2px 4px 4px #BDC6F3;
+    background:linear-gradient(#0C27B8 ,#0E1B5F);
+}
 
+.formContato input::placeholder{
+  color: #0E1B5F
 }
 
 
 
+
 @media(max-width:768px){
-
-
-
   #contato h1{
    font-size: 2rem;
    width: 100%;
@@ -76,8 +93,6 @@ background-color: #f7f7f7;
     font-weight: 300;
   }
 
-
-    
 .formContato{
 padding: 20px;
 }
